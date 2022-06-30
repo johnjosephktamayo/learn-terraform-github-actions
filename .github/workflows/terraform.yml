@@ -26,7 +26,7 @@ jobs:
 
       - name: Terraform Init
         id: init
-        run: terraform init
+        run: sudo terraform init
       
       - name: Terraform Validate
         id: validate
